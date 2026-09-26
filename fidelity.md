@@ -1,6 +1,6 @@
 # Fidelity review — United States v. Philip Morris USA Inc.: Amended Final Opinion
 
-Pages: 1682  ·  Footnotes: 35  ·  Auto-fixes applied: 1447  ·  Human corrections: 0
+Pages: 1682  ·  Footnotes: 56  ·  Auto-fixes applied: 1447  ·  Human corrections: 0
 
 **126 open**, 0 reviewed and judged correct.
 

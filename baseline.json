@@ -1,11 +1,11 @@
 {
-  "markdownSha": "bf6f0c89c2ec0265368e2037aea9e4b48be148de1b5c07d25a7f62f8f410341c",
-  "words": 500064,
+  "markdownSha": "60a69cfdb0dcdfa1293d0155ab0a9328c79f2291af0971e0844b0e4c01f91b20",
+  "words": 500181,
   "blocks": {
     "heading": 220,
-    "quote": 2194,
+    "quote": 2192,
     "list": 79,
-    "paragraph": 6698
+    "paragraph": 6640
   },
   "headings": [
     "UNITED STATES DISTRICT COURT FOR THE DISTRICT OF COLUMBIA",
@@ -229,7 +229,7 @@
     "Public Education and Countermarketing Campaign",
     "Notes"
   ],
-  "footnotes": 35,
+  "footnotes": 56,
   "pageMarkers": 1682,
   "poppler": "26.08.0"
 }
