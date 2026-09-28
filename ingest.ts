@@ -1,4 +1,4 @@
-import { pipeline, runningFurniture } from "@rtm/ingest";
+import { contentsOutline, doubleSpaced, numberedFindings, pipeline, runningFurniture } from "@rtm/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
@@ -18,5 +18,7 @@ export default pipeline({
       sha256: "45b74f67a41581107bb64ebbe3e8d27f323fd30c7c8eca16c27d542c82983676",
     },
   ],
-  passes: [runningFurniture()],
+  // The opinion numbers its Findings of Fact 1–4,088 straight through; each
+  // is a paragraph that opens with its number (reportsthatmatter-9ek).
+  passes: [runningFurniture({ minShare: 0.5 }), doubleSpaced(), numberedFindings(), contentsOutline()],
 });
