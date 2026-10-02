@@ -1,0 +1,87 @@
+# Golden pages: ground truth for this report, read off the PDF page image and checked by `pnpm ingest verify`.
+# Format and rules: @rtm/ingest src/golden.ts and the site's docs/quality-harness.md ("Golden pages").
+# A page marked xfail is a known pipeline defect: it stays red here, verify stays green, and the bead says why.
+# A court opinion: footnotes are printed at the page foot and run over pages with a "(...continued)" line; findings are numbered "944."
+pages:
+  # A heading, three paragraphs and a fourth that runs on; page foot carries the run-over of footnote 2 ("(...continued)"), which is not body text.
+  - pdf: 35
+    printed: -5
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [E, B, I]
+    xfail: reportsthatmatter-7go, reportsthatmatter-38s.10
+    xfail_only: [blocks, must_not_contain, opens]
+    continues_previous: true
+    opens_with: "What a sad and disquieting chapter in the history of an honorable"
+    blocks:
+      - heading: "B. Preliminary Guidance for the Reader"
+      - paragraph: {start: "Courts must decide every case that walks in the courthouse door", end: "procedures that it has followed."}
+      - paragraph: {start: "First and foremost, the Court has decided that, as fact finder", end: "unquestionably be raised."}
+      - paragraph: {start: "Certain consequences flow from the decision to present", continues: true}
+    footnotes: []
+    markers: []
+    must_not_contain: ["grossly misrepresented in his pleadings and declaration to the Court", "(...continued)"]
+  # An ordinary page: four numbered findings of fact, each closed by record citations.
+  - pdf: 400
+    printed: -370
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [ordinary, J]
+    blocks:
+      - paragraph: {start: "944. Dr. Farone discussed with other Philip Morris scientists", end: "Id. at 75:17-23."}
+      - paragraph: {start: "945. Philip Morris's intensive internal research on nicotine", end: "(US 20421)."}
+      - paragraph: {start: "946. Many other Philip Morris documents reveal", end: "(US 87089)."}
+      - paragraph: {start: "947. A November 8, 1990 Philip Morris memorandum", continues: true}
+    footnotes: []
+    markers: []
+  # Findings with an exhibit of advertising copy set as an indented block, record citations as their own lines, and a quotation carried over from the page before.
+  - pdf: 955
+    printed: -925
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [D, H, J]
+    xfail: reportsthatmatter-ay3
+    xfail_only: [blocks, must_not_be_quote]
+    continues_previous: true
+    opens_with: "there's a lot of it, like it's filtering out a lot of the harmful things"
+    blocks:
+      - paragraph: {start: "511469097-9250 at 9105, 9116 (US 20842)", end: "Orlowsky WD, 72:17-23; 81:4-8."}
+      - paragraph: {start: "2501. A 1979 study prepared for RJR", end: "Orlowsky WD, 83:7-12."}
+      - paragraph: {start: "2502. Advertisements for RJR's Now cigarette", end: "included the following:"}
+      - quote: {start: "Now. It's a Satisfying Decision.", end: "By U.S. gov't. testing method."}
+      - paragraph: {start: "(no bates) (US 5852) (1978)", end: "(US 85104)."}
+      - paragraph: {start: "2503. A 1983 Now Brand Image report", end: "moving to a lower tar brand.\""}
+    footnotes: []
+    markers: []
+    must_not_be_quote: ["WHEN IT COMES TO THE LOWEST IN TAR"]
+    headings: []
+  # The page opens with the run-over of footnote 30 ("(...continued)"), then five body paragraphs and a quotation that continues overleaf.
+  - pdf: 1265
+    printed: -1235
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [E, D]
+    xfail: reportsthatmatter-7go
+    xfail_only: [blocks, must_not_contain]
+    blocks:
+      - paragraph: {start: "Dr. Bradley is not a medical doctor, epidemiologist", end: "Bradley WD, 18:14-16."}
+      - paragraph: {start: "In active smoking cases, Dr. Bradley continues to dispute", end: "15559:3-24."}
+      - paragraph: {start: "Dr. Bradley's \"methodology\" depended on his evaluation", end: "15426:6-9."}
+      - paragraph: {start: "No scientific or medical authority shares Dr. Bradley's view", end: "Bradley WD, 21:19-22:15."}
+      - paragraph: {start: "Moreover, Dr. Bradley admits that he stands alone", end: "Dr. Bradley responded:"}
+      - quote: {start: "I didn't say they were wrong.", continues: true}
+    footnotes: []
+    markers: []
+    must_not_contain: ["secondhand smoke is a health risk to both adults and children, Defendants called only one expert witness", "(continued...)"]
+  # A numbered heading (VIII.) with a statute citation, the end of a paragraph carried over, and footnote 37 (three paragraphs) printed at the foot.
+  - pdf: 1617
+    printed: -1587
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [E, F, G, I]
+    xfail: reportsthatmatter-7go
+    xfail_only: [blocks, footnotes, markers, must_not_contain, opens]
+    continues_previous: true
+    opens_with: "exploited their customers’ lack of knowledge concerning cigarette use"
+    blocks:
+      - paragraph: {start: "For all the foregoing reasons, the Court concludes", end: "violations of 18 U.S.C. § 1962(D).", notes: [37]}
+      - heading: "VIII. DEFENDANTS HAVE VIOLATED 18 U.S.C. §1962(d)"
+      - paragraph: {start: "18 U.S.C. § 1962(d) provides in part", end: "(c) of this Section.”"}
+    footnotes: [37]
+    markers: [37]
+    must_not_contain: ["Before trial in this case, Defendants raised a number of affirmative defenses", "Repeating the arguments from their pre-trial brief"]
