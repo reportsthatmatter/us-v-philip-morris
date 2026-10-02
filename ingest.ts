@@ -1,4 +1,4 @@
-import { quoteListRunOns, contentsOutline, doubleSpaced, numberedFindings, pipeline, runningFurniture } from "@rtm/ingest";
+import { layoutPageJoins, quoteListRunOns, contentsOutline, doubleSpaced, numberedFindings, pipeline, runningFurniture } from "@rtm/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
@@ -20,5 +20,10 @@ export default pipeline({
   ],
   // The opinion numbers its Findings of Fact 1–4,088 straight through; each
   // is a paragraph that opens with its number (reportsthatmatter-9ek).
-  passes: [quoteListRunOns(), runningFurniture({ minShare: 0.5, numbersTrackPages: true }), doubleSpaced(), numberedFindings(), contentsOutline()],
+  passes: [
+    // A paragraph run over a page break that opens on a capital, a digit or a
+    // quotation mark (or follows a full stop on a justified page) joins when the
+    // layout says it runs on: no first-line indent, same face (reportsthatmatter-38s.10).
+    layoutPageJoins(),
+    quoteListRunOns(), runningFurniture({ minShare: 0.5, numbersTrackPages: true }), doubleSpaced(), numberedFindings(), contentsOutline()],
 });
