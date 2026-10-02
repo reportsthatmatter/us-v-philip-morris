@@ -8,7 +8,7 @@ pages:
     printed: -5
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [E, B, I]
-    xfail: reportsthatmatter-7go, reportsthatmatter-38s.10
+    xfail: reportsthatmatter-7go, reportsthatmatter-ky1o
     xfail_only: [blocks, must_not_contain, opens]
     continues_previous: true
     opens_with: "What a sad and disquieting chapter in the history of an honorable"
