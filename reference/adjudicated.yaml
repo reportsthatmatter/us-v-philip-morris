@@ -1,0 +1,191 @@
+report: us-v-philip-morris
+adjudicated: 2026-10-02
+by: Claude (Sonnet 5.5), reading the PDF
+method: "20 page breaks drawn at random (seeded) from the page breaks the reference covers, plus 10 where our text and the reference disagreed. For each, pdftotext -layout of the two pages (body lines, notes, running head), answering: does a new block (paragraph, bullet, quotation, heading) start between the two printed body lines shown, or does the block run on. prev and next are the dataset's lines; when the new page's first body line is not the one shown, the verdict covers the stretch between."
+breaks:
+  - page: 57
+    prev: "forty years.  Brandt WD, 61:23-62:7."
+    next: "22. In response to an inquiry by Stanley Barnes, Assistant A"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 124
+    prev: "Institute.  The most influential and powerful of these were"
+    next: "the Tobacco Institute Committee of Counsel, the Tobacco Inst"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 157
+    prev: "Morris sent a letter to David Hardy of Shook, Hardy & Bacon"
+    next: "proposing that Richard Hickey, who had previously applied fo"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 159
+    prev: "o Lisanti PD, Arch v. American Tobacco, 6/10/97, 86:17-87:2."
+    next: "Sometimes, general counsel would advise CTR directly if a pr"
+    verdict: join
+    stratum: random
+    image: false
+    note: "flush continuation after a citation string"
+  - page: 171
+    prev: "ax H. Crohn, Joseph H. Greer, Arnold Henson, Ernest Pepples,"
+    next: "William W. Shinn, Ed Jacob, and Janet C. Brown acknowledged"
+    verdict: join
+    stratum: disagreement
+    image: false
+  - page: 239
+    prev: "hook, Hardy & Bacon, took part in a panel discussion on ETS."
+    next: "2021594646-4648 (US 26059); TIOK0029712-9712 (US 86546); TIO"
+    verdict: join
+    stratum: disagreement
+    image: false
+    note: "a Bates citation string continues the finding"
+  - page: 328
+    prev: "ated: \"The truth of the matter is this: No one knows whether"
+    next: "cigarette smoking causes any human disease or in any way imp"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 449
+    prev: "tine interaction with the central nervous system,\" and human"
+    next: "studies to better determine \"the minimum dose of smoke nicot"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 482
+    prev: "as addictive.  The Robinson and Pritchard paper was cited in"
+    next: "industry submissions to Congress in 1994 and to the FDA in 1"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 588
+    prev: "illard to \"increase nicotine to tar ratios in the mainstream"
+    next: "smoke of cigarettes.\"  The memorandum notes that:  \"The use"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 739
+    prev: "d M. Wagner to identify an appropriate group of experts with"
+    next: "“experience and scientific recognition in the fields of anal"
+    verdict: join
+    stratum: disagreement
+    image: false
+  - page: 757
+    prev: "ed-exposure product.  Advance contains tobacco cured using a"
+    next: "patented process to reduce levels of TSNAs – tobacco-specifi"
+    verdict: join
+    stratum: random
+    image: false
+    note: "a footnote sits between the halves of the paragraph"
+  - page: 885
+    prev: "700173214-3217 at 3214-3217 (US 22121)."
+    next: "(4) Brown & Williamson"
+    verdict: split
+    stratum: random
+    image: false
+    note: "heading (4)"
+  - page: 905
+    prev: "ine from higher and lower “tar” cigarettes, therefore making"
+    next: "the Commission's numbers irrelevant to the consumer.  RJRT,"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 1005
+    prev: "99 slide presentation, titled \"ASU30 [Adult Smoker Under 30]"
+    next: "Project,\" manager Rick Stevens analyzed BATCo's \"ASU30 Perfo"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 1056
+    prev: "wrote:"
+    next: "InSight is part of a larger project, Young Adult Trend Track"
+    verdict: split
+    stratum: random
+    image: false
+    note: "a block quotation opens at the top of the page"
+  - page: 1101
+    prev: "[Hispanic] smokers 18+.\" 520650706-0727 at 0706 (US 52621);"
+    next: "518090228-0255 at 0233, 0242, 0244-0249, 0251 (US 52152); 51"
+    verdict: join
+    stratum: disagreement
+    image: false
+    note: "a citation string continues"
+  - page: 1104
+    prev: "heros [sic], friends, hangouts, etc., it is clear that they"
+    next: "do.  More important to us (and probably to many other produc"
+    verdict: join
+    stratum: disagreement
+    image: false
+  - page: 1237
+    prev: "170:16-171:18, 208:16-18."
+    next: "3295. According to Lynn Beasley, President and Chief Operati"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 1257
+    prev: "ciples for evaluating epidemiological studies.  The analysis"
+    next: "considers animal bioassays and genotoxicity studies, as well"
+    verdict: join
+    stratum: disagreement
+    image: false
+  - page: 1281
+    prev: "cal changes occur.  The changes at 60 ug/m3 are greater than"
+    next: "at 20 ug/m3.  Changes are reversible with cessation of expos"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 1286
+    prev: "vels of tobacco-specific nitrosamines such as NNK (nicotine-"
+    next: "derived nitrosaminoketone) in sidestream smoke.  Farone WD,"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 1288
+    prev: "ed by a working group led by Professor Walter Spitzer at the"
+    next: "University of Toronto, was published in 1990 in Clinical and"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 1309
+    prev: "irectors included, at various times, Philip Morris Executive"
+    next: "Vice President Hugh Cullman, Philip Morris general counsel A"
+    verdict: join
+    stratum: disagreement
+    image: false
+  - page: 1357
+    prev: "01504-1519 (US 85542).  On the other side, Morton Schienberg"
+    next: "of Brazil was rejected because he and his wife \"despise ciga"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 1370
+    prev: "indoor environment, have a newsletter and a learned journal"
+    next: "published by the respected Swiss scientific publishing house"
+    verdict: join
+    stratum: disagreement
+    image: false
+  - page: 1467
+    prev: "ern driving BAT Group document retention policies.  B&W, the"
+    next: "American company, paid for the document review at BATCo, the"
+    verdict: join
+    stratum: disagreement
+    image: false
+  - page: 1589
+    prev: "d at 707; Diggs, 613 F.2d at 998-99; United States v. United"
+    next: "Medical & Surgical Supply Corp., 989 F.2d 1390, 1404 (4th Ci"
+    verdict: join
+    stratum: disagreement
+    image: false
+  - page: 1608
+    prev: "ence a specific intent to defraud.  The Findings of Fact are"
+    next: "replete with examples of representatives of each cigarette c"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 1654
+    prev: "hip, 513 U.S. 18, 26 (1994) (“As always, when federal courts"
+    next: "contemplate equitable relief, our holding must also take acc"
+    verdict: join
+    stratum: random
+    image: false
