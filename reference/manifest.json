@@ -1,0 +1,48 @@
+{
+  "report": "us-v-philip-morris",
+  "set": "development",
+  "edition": "United States v. Philip Morris USA, Inc., 449 F. Supp. 2d 1 (D.D.C. 2006), Caselaw Access Project (static.case.law)",
+  "licence": "Public domain: a United States court opinion; CAP data published without use restrictions.",
+  "fetched": "2026-10-02",
+  "sources": [
+    {
+      "path": "reference/raw/0001-01.html",
+      "url": "https://static.case.law/f-supp-2d/449/html/0001-01.html",
+      "sha256": "e91fef5b8e5874d13e1348de81024adb537d8de4eb8d28020567c7e1e1e72b97",
+      "bytes": 5696217
+    },
+    {
+      "path": "reference/raw/0001-01.json",
+      "url": "https://static.case.law/f-supp-2d/449/cases/0001-01.json",
+      "sha256": "3718a170554dc2386f8e1f974038c82a4d1a88cbf07c679f2b175a492d3edb26",
+      "bytes": 3538550
+    }
+  ],
+  "blocks": {
+    "path": "reference/blocks.jsonl",
+    "sha256": "1bf94d8f32b6ffbabf60db3012bcd97020b1e8f3c7bc10b93ee27a6879486e48",
+    "normaliser": "reportsthatmatter scripts/score/reference.py, adapter cap, version 1",
+    "built": "2026-10-02",
+    "counts": {
+      "contents": 473,
+      "heading": 473,
+      "note": 94,
+      "paragraph": 5925,
+      "quote": 1945
+    },
+    "markers": 94,
+    "markers_linked": 94,
+    "words": 498777
+  },
+  "caveats": [
+    "CAP has no heading markup: headings are inferred from short labelled lines (I., A., 1., a.) and short all-caps lines.",
+    "OCR text (CAP mean confidence 0.664): character errors, especially in tables.",
+    "Star pages (*15) are the reporter's, not the PDF's; kept as `page` on each block."
+  ],
+  "version": {
+    "differs": true,
+    "reference": "Final opinion of 17 August 2006 as printed in the reporter (449 F. Supp. 2d 1), OCR of a library scan",
+    "ours": "Amended final opinion filed 8 September 2006 (docket document 5750)",
+    "policy": "Unaligned stretches are version differences until shown otherwise: the scorer excludes them from structural metrics and reports them separately."
+  }
+}
