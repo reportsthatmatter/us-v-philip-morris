@@ -19953,7 +19953,9 @@ The United States established by a preponderance of the evidence that Defendants
 
 %%page 1529%%
 
-> It shall be unlawful for any person employed by or associated with any enterprise engaged in, or the activities of which affect, interstate or foreign commerce, to conduct or participate, directly or indirectly, in the conduct of such enterprise's affairs through a pattern of racketeering activity or collection of unlawful debt.[^18] U.S.C. § 1962(c). The United States has proven this violation by establishing each of the following elements:
+> It shall be unlawful for any person employed by or associated with any enterprise engaged in, or the activities of which affect, interstate or foreign commerce, to conduct or participate, directly or indirectly, in the conduct of such enterprise's affairs through a pattern of racketeering activity or collection of unlawful debt.
+
+18 U.S.C. § 1962(c). The United States has proven this violation by establishing each of the following elements:
 
 • The existence of an enterprise;
 
@@ -20633,7 +20635,9 @@ myriad ways in which Defendants made public statements, often directly to consum
 
 To establish the commission of a pattern of racketeering activity,[^18] U.S.C. §§ 1961(5) and 1962(c) require that each defendant commit at least two acts of racketeering, "the last of which occurred within ten years . . . after the commission of a prior" racketeering act. H.J. Inc. v. Northwestern Bell Tel. Co., 492 U.S. 229, 237 (1989). Because each Defendant has committed two or more Racketeering Acts within ten years of each other, that standard is clearly met in this case. See generally Findings of Fact.
 
-Defendants assert, without citing any authority or offering any analysis, that the United States must prove that each Defendant committed two or more racketeering acts within ten years of each other as to each aspect of the over-arching scheme to defraud. Defs.' Corrected Trial Brief at 114. Defendants are wrong. The requirement of two racketeering acts pertains to the pattern of racketeering activity, which in this case is the overall scheme to defraud itself, and not the hundreds of individual discrete predicate activities that comprise it.[^18] U.S.C. § 1961(5) establishes that a "pattern of racketeering activity requires at least two acts of racketeering activity, one of which occurred after October 15, 1970 (the date on which the
+Defendants assert, without citing any authority or offering any analysis, that the United States must prove that each Defendant committed two or more racketeering acts within ten years of each other as to each aspect of the over-arching scheme to defraud. Defs.' Corrected Trial Brief at 114. Defendants are wrong. The requirement of two racketeering acts pertains to the pattern of racketeering activity, which in this case is the overall scheme to defraud itself, and not the hundreds of individual discrete predicate activities that comprise it.
+
+18 U.S.C. § 1961(5) establishes that a "pattern of racketeering activity requires at least two acts of racketeering activity, one of which occurred after October 15, 1970 (the date on which the
 
 (...continued) required in cases involving alleged intentionally fraudulent statements.
 
@@ -20827,7 +20831,9 @@ exploited their customers' lack of knowledge concerning cigarette use and nicoti
 
 For all the foregoing reasons, the Court concludes that Defendants are liable for violations of 18 U.S.C. § 1962(D).37
 
-#### DEFENDANTS HAVE VIOLATED 18 U.S.C. §1962(d)[^18] U.S.C. § 1962(d) provides in part: "It shall be unlawful for any person to conspire to violate any of the provisions of . . . Subsection (c) of this Section."
+#### DEFENDANTS HAVE VIOLATED 18 U.S.C. §1962(d)
+
+18 U.S.C. § 1962(d) provides in part: "It shall be unlawful for any person to conspire to violate any of the provisions of . . . Subsection (c) of this Section."
 
 Before trial in this case, Defendants raised a number of affirmative defenses. The Court granted the Government's Motion for Partial Summary Judgment for these defenses as to liability. See Order #476; see also Order #227, #356, #509, #538, and #586. However, at that time the Court reserved judgment about how these affirmative defenses might apply to remedies. See Mem. Op. to Order #476 at 27 n.21. Defendants now appropriately raise the same affirmative defenses in regard to remedies.
 
