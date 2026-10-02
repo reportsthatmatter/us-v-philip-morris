@@ -20,5 +20,5 @@ export default pipeline({
   ],
   // The opinion numbers its Findings of Fact 1–4,088 straight through; each
   // is a paragraph that opens with its number (reportsthatmatter-9ek).
-  passes: [runningFurniture({ minShare: 0.5 }), doubleSpaced(), numberedFindings(), contentsOutline()],
+  passes: [runningFurniture({ minShare: 0.5, numbersTrackPages: true }), doubleSpaced(), numberedFindings(), contentsOutline()],
 });
