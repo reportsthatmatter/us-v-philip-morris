@@ -1,4 +1,4 @@
-import { contentsOutline, doubleSpaced, numberedFindings, pipeline, runningFurniture } from "@rtm/ingest";
+import { quoteListRunOns, contentsOutline, doubleSpaced, numberedFindings, pipeline, runningFurniture } from "@rtm/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
@@ -20,5 +20,5 @@ export default pipeline({
   ],
   // The opinion numbers its Findings of Fact 1–4,088 straight through; each
   // is a paragraph that opens with its number (reportsthatmatter-9ek).
-  passes: [runningFurniture({ minShare: 0.5, numbersTrackPages: true }), doubleSpaced(), numberedFindings(), contentsOutline()],
+  passes: [quoteListRunOns(), runningFurniture({ minShare: 0.5, numbersTrackPages: true }), doubleSpaced(), numberedFindings(), contentsOutline()],
 });
