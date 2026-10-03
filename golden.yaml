@@ -3,16 +3,15 @@
 # A page marked xfail is a known pipeline defect: it stays red here, verify stays green, and the bead says why.
 # A court opinion: footnotes are printed at the page foot and run over pages with a "(...continued)" line; findings are numbered "944."
 pages:
-  # A heading, three paragraphs and a fourth that runs on; page foot carries the run-over of footnote 2 ("(...continued)"), which is not body text.
+  # A one-sentence paragraph (first-line indented, after a short last line on the page before: its own paragraph, as the reference edition has it), a heading, three paragraphs and a fourth that runs on; page foot carries the run-over of footnote 2 ("(...continued)"), which is not body text.
   - pdf: 35
     printed: -5
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [E, B, I]
-    xfail: reportsthatmatter-7go, reportsthatmatter-ky1o
-    xfail_only: [blocks, must_not_contain, opens]
-    continues_previous: true
-    opens_with: "What a sad and disquieting chapter in the history of an honorable"
+    xfail: reportsthatmatter-7go
+    xfail_only: [blocks, must_not_contain]
     blocks:
+      - paragraph: {start: "What a sad and disquieting chapter in the history of an honorable", end: "courageous profession."}
       - heading: "B. Preliminary Guidance for the Reader"
       - paragraph: {start: "Courts must decide every case that walks in the courthouse door", end: "procedures that it has followed."}
       - paragraph: {start: "First and foremost, the Court has decided that, as fact finder", end: "unquestionably be raised."}
