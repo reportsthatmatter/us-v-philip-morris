@@ -1,4 +1,4 @@
-import { layoutPageJoins, quoteListRunOns, contentsOutline, doubleSpaced, numberedFindings, pipeline, runningFurniture } from "@rtm/ingest";
+import { layoutMarkers, layoutPageJoins, quoteListRunOns, contentsOutline, doubleSpaced, numberedFindings, pipeline, runningFurniture } from "@rtm/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
@@ -25,5 +25,9 @@ export default pipeline({
     // quotation mark (or follows a full stop on a justified page) joins when the
     // layout says it runs on: no first-line indent, same face (reportsthatmatter-38s.10).
     layoutPageJoins(),
+    // Link the footnote markers the PDF raises, by the words before them, to the note on their page.
+    // Only 19 of its references were linked, so the renderer's alignment of repeated labels opened 17
+    // notes from another page (reportsthatmatter-y0w9, b94).
+    layoutMarkers(),
     quoteListRunOns(), runningFurniture({ minShare: 0.5, numbersTrackPages: true }), doubleSpaced(), numberedFindings(), contentsOutline()],
 });
