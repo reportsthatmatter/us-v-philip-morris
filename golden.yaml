@@ -74,7 +74,7 @@ pages:
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [E, F, G, I]
     xfail: reportsthatmatter-7go
-    xfail_only: [blocks, footnotes, markers, must_not_contain, opens]
+    xfail_only: [blocks, footnotes, markers, must_not_contain]
     continues_previous: true
     opens_with: "exploited their customers’ lack of knowledge concerning cigarette use"
     blocks:

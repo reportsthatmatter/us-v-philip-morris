@@ -1,4 +1,4 @@
-import { layoutMarkers, layoutPageJoins, quoteListRunOns, contentsOutline, doubleSpaced, numberedFindings, pipeline, runningFurniture } from "@rtm/ingest";
+import { footnoteResets, layoutMarkers, layoutPageJoins, quoteListRunOns, contentsOutline, doubleSpaced, numberedFindings, pipeline, runningFurniture } from "@rtm/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
@@ -29,5 +29,6 @@ export default pipeline({
     // Only 19 of its references were linked, so the renderer's alignment of repeated labels opened 17
     // notes from another page (reportsthatmatter-y0w9, b94).
     layoutMarkers(),
+    footnoteResets([{ page: 1507, note: 7 }]),
     quoteListRunOns(), runningFurniture({ minShare: 0.5, numbersTrackPages: true }), doubleSpaced(), numberedFindings(), contentsOutline()],
 });
