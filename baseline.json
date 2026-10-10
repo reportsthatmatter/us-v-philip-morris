@@ -1,11 +1,11 @@
 {
-  "markdownSha": "13ffe286a8991fd2814edff63ff04d32fde404a63fe191179c41538ddc75e3d3",
-  "words": 488066,
+  "markdownSha": "44276a66a4a8f1e0b80049c65d9b2a12ffb3042f8ea00719d743e281514cfc35",
+  "words": 488132,
   "blocks": {
     "heading": 479,
-    "quote": 1835,
+    "quote": 1834,
     "list": 565,
-    "paragraph": 5911
+    "paragraph": 5854
   },
   "headings": [
     "UNITED STATES DISTRICT COURT FOR THE DISTRICT OF COLUMBIA",
@@ -488,7 +488,7 @@
     "Costs",
     "Notes"
   ],
-  "footnotes": 56,
+  "footnotes": 92,
   "pageMarkers": 1682,
   "poppler": "26.08.0"
 }
