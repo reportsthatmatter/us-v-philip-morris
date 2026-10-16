@@ -12,6 +12,10 @@ conclusions of law.
 <https://www.justice.gov/civil/case/us-v-philip-morris-usa-inc-et-al>. Public
 domain (work of the U.S. federal courts / Government). See `datapackage.json`.
 
+## Licence
+
+Text of the report: Public domain: an opinion of a United States District Court (a work of the United States Government, 17 U.S.C. § 105). Our markup, processing and editorial additions: CC BY 4.0. Code: MIT. Evidence, caveats and the full statement are in [LICENSE](LICENSE); the MIT text is in [LICENSE-MIT](LICENSE-MIT).
+
 ## Build
 
 `ingest.ts` declares how the opinion is turned into Markdown. Rebuild from the
